@@ -6,3 +6,5 @@ The following project is an exercise in what **NOT** to do when it comes to best
 ### Best practices violated:
 - Make your code readable.
    - All classes, variables, and methods have had their names obfuscated by random keysmashing.
+- Use proper whitespace to enforce and visualize structure.
+   - All code has been compressed onto one line, and whitespace removed.
