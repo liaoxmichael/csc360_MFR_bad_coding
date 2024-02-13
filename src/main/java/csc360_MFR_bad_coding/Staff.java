@@ -18,7 +18,7 @@ public class Staff
 		
 		if (type == 0)
 		{
-			e = new Contractor(name, rate);
+			e = new fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk(name, rate);
 		} 
 		else if (type == 1)
 		{

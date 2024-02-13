@@ -5,20 +5,20 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import csc360_MFR_bad_coding.Contractor;
+import csc360_MFR_bad_coding.fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk;
 import csc360_MFR_bad_coding.cfghfjk;
 import csc360_MFR_bad_coding.Salary;
 
 class EmployeeTest
 {
-	Contractor c;
+	fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk c;
 	cfghfjk h;
 	Salary s;
 
 	@BeforeEach
 	void setUp() throws Exception
 	{
-		c = new Contractor("Bob", 20);
+		c = new fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk("Bob", 20);
 		h = new cfghfjk("Amanda", 20);
 		s = new Salary("Helen", 20);
 		
