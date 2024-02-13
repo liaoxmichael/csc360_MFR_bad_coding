@@ -1,10 +1,10 @@
 /**
  * 
  */
-package csc632TestPrep1;
+package csc360_MFR_bad_coding;
 
 
-public abstract class Employee
+public abstract class ghjkluyghjfjyutgjhfncf
 {
 
 	public String name;
@@ -15,7 +15,7 @@ public abstract class Employee
 	 * @param name
 	 * @param hourly_rate
 	 */
-	public Employee(String name, float hourly_rate)
+	public ghjkluyghjfjyutgjhfncf(String name, float hourly_rate)
 	{
 		this.name = name;
 		this.hourly_rate = hourly_rate;
@@ -24,7 +24,7 @@ public abstract class Employee
 	/**
 	 * @return the num_hours
 	 */
-	public float getNum_hours()
+	public float zdfsghvgkjhgjfnb()
 	{
 		return num_hours;
 	}
@@ -40,12 +40,12 @@ public abstract class Employee
 	/**
 	 * @return the hourly_rate
 	 */
-	public float getHourly_rate()
+	public float hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs()
 	{
 		return hourly_rate;
 	}
 	
-	public float calc_pay()
+	public float rtyyui()
 	{
 		return 0;
 	}

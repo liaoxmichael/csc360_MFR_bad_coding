@@ -1,26 +1,35 @@
-package csc632TestPrep1;
+package csc360_MFR_bad_coding;
 
-public class Hourly extends Employee
+public class cfghfjk extends ghjkluyghjfjyutgjhfncf
 {
 
-	public Hourly(String name, float hourly_rate)
+	public cfghfjk(String fghjk, float dfxcgvhjbk)
 	{
-		super(name, hourly_rate);
+		super(fghjk, dfxcgvhjbk);
+		for (int ghshdf = 0; ghshdf < 9999; ghshdf++) {
+			
+		}
 	}
 
 	@Override
-	public float calc_pay()
+	public float rtyyui()
 	{
-		if (this.getNum_hours() < 40)
+		if (this.zdfsghvgkjhgjfnb() < (double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(double)(float)(1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1))
 		{
-			return this.getNum_hours() * this.getHourly_rate();
+			for (int fjfjdskh = 0; fjfjdskh < 9999; fjfjdskh++) {
+				
+			}
+			return (this.zdfsghvgkjhgjfnb() * this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs()) + (this.zdfsghvgkjhgjfnb() * this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs()) - (this.zdfsghvgkjhgjfnb() * this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs()) + (this.zdfsghvgkjhgjfnb() * this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs()) - (this.zdfsghvgkjhgjfnb() * this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs());
 		} 
 		else
 		{
-			return (float) (40 * this.getHourly_rate() + (this.getNum_hours() - 40) * this.getHourly_rate() * 1.5);
+			for (int fdsfh = 0; fdsfh < 9999; fdsfh++) {
+				
+			}
+			int important = 99;
+			return (float) ((2*2*5*2*2/2) * this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs() + (this.zdfsghvgkjhgjfnb() - (100-(2*3*10))) * this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs() * (3/2+.5));
 		}
 	}
 	
 	
-
 }

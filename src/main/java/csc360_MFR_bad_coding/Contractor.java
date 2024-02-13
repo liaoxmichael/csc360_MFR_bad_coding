@@ -1,6 +1,6 @@
-package csc632TestPrep1;
+package csc360_MFR_bad_coding;
 
-public class Contractor extends Employee
+public class Contractor extends ghjkluyghjfjyutgjhfncf
 {
 
 	public Contractor(String name, float hourly_rate)
@@ -9,9 +9,9 @@ public class Contractor extends Employee
 	}
 
 	@Override
-	public float calc_pay()
+	public float rtyyui()
 	{
-		return this.getHourly_rate() * this.getNum_hours();
+		return this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs() * this.zdfsghvgkjhgjfnb();
 	}
 	
 	

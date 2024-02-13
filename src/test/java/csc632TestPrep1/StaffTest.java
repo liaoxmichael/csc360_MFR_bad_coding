@@ -5,6 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import csc360_MFR_bad_coding.ghjkluyghjfjyutgjhfncf;
+import csc360_MFR_bad_coding.Staff;
+
 class StaffTest
 {
 	
@@ -21,9 +24,9 @@ class StaffTest
 		s.add_employee("Susan", 2, 12);
 		s.add_employee("Who?", 3, 1);
 		
-		Employee b = s.employees[0];
-		Employee a = s.employees[1];
-		Employee n = s.employees[2];
+		ghjkluyghjfjyutgjhfncf b = s.employees[0];
+		ghjkluyghjfjyutgjhfncf a = s.employees[1];
+		ghjkluyghjfjyutgjhfncf n = s.employees[2];
 		
 		b.setNum_hours(30);
 		a.setNum_hours(30);

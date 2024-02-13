@@ -1,6 +1,6 @@
-package csc632TestPrep1;
+package csc360_MFR_bad_coding;
 
-public class Salary extends Employee
+public class Salary extends ghjkluyghjfjyutgjhfncf
 {
 
 	public Salary(String name, float hourly_rate)
@@ -11,10 +11,10 @@ public class Salary extends Employee
 	}
 
 	@Override
-	public float calc_pay()
+	public float rtyyui()
 	{
 		
-		return this.getHourly_rate() * 40;
+		return this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs() * 40;
 		
 	}
 	
