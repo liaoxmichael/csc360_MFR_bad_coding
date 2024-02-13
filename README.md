@@ -14,6 +14,7 @@ The following project is an exercise in what **NOT** to do when it comes to best
 8. Write understandable loops.
 9. Organize `if` statements so as to be readable, encapsulating conditions in boolean variables if necessary.
 10. Maintain consistent naming practices.
+11. Respect code proximity by putting related code as near to each other as possible.
 
 ### How violated:
 - Rules 1, 2, and 3 are all violated because all classes, variables, and methods have had their names obfuscated by random keysmashing.
