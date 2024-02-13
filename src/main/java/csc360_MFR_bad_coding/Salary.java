@@ -1,20 +1,20 @@
 package csc360_MFR_bad_coding;
 
-public class Salary extends ghjkluyghjfjyutgjhfncf
-{
+public class/*whitespace*/Salary/*whitespace*/extends/*whitespace*/ghjkluyghjfjyutgjhfncf
+{/*whitespace*/
 
-	public Salary(String name, float hourly_rate)
-	{
+	public Salary(String name,/*whitespace*/float/*space*/hourly_rate)
+	{/*whitespace*/
 		
-		super(name, hourly_rate);
+		super(name,/*whitespace*/hourly_rate);
 	
-	}
+	}/*whitespace*/
 
 	@Override
-	public float rtyyui()
+	public float rtyyui(/*whitespace*/)
 	{
 		
-		return this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs() * 40;
+		return this.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs(/*This has no parameters*/)/*whitespace*/*/*whitespace*/40;
 		
 	}
 	
