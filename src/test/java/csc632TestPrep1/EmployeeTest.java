@@ -22,17 +22,17 @@ class EmployeeTest
 		h = new cfghfjk("Amanda", 20);
 		s = new Salary("Helen", 20);
 		
-		c.setNum_hours(45);
-		h.setNum_hours(45);
-		s.setNum_hours(45);
+		c.fghjhklljhgh(45);
+		h.fghjhklljhgh(45);
+		s.fghjhklljhgh(45);
 	}
 
 	@Test
 	void test()
 	{
-		assertEquals(c.name, "Bob");
-		assertEquals(h.name, "Amanda");
-		assertEquals(s.name, "Helen");
+		assertEquals(c.int_name, "Bob");
+		assertEquals(h.int_name, "Amanda");
+		assertEquals(s.int_name, "Helen");
 		
 		assertEquals(c.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs(), 20);
 		assertEquals(h.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs(), 20);

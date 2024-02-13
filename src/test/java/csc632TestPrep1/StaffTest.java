@@ -28,9 +28,9 @@ class StaffTest
 		ghjkluyghjfjyutgjhfncf a = s.employees[1];
 		ghjkluyghjfjyutgjhfncf n = s.employees[2];
 		
-		b.setNum_hours(30);
-		a.setNum_hours(30);
-		n.setNum_hours(30);
+		b.fghjhklljhgh(30);
+		a.fghjhklljhgh(30);
+		n.fghjhklljhgh(30);
 		
 		payments = s.pay_employees();
 	}
