@@ -26,3 +26,4 @@ The following project is an exercise in what **NOT** to do when it comes to best
 - Rule 6 is violated in the `Employee` class (now `ghjkluyghjfjyutgjhfncf`) as every single line is overexplained, even when it is self explanatory.
    - For example: Every line of a function definition block is commented, pointing out the function signature, each curly brace, any assignment operations, and whitespace for visual clarity.
    - Even more egregious: Functions with no parameters are singled out by comments _within the parentheses themselves_ indicating that these functions take no arguments.
+- Rule 8 is violated in `PLACEHOLDER`
