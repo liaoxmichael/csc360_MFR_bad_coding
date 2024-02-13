@@ -9,9 +9,12 @@ The following project is an exercise in what **NOT** to do when it comes to best
 3. Use meaningful names that reflect the function or content.
 4. Use proper whitespace to enforce and visualize structure.
 5. Define constants where appropriate.
-6. 
+6. Do not overcomment.
+7. Don't undercomment.
 
 ### How violated:
 - Rules 1, 2, and 3 are all violated because all classes, variables, and methods have had their names obfuscated by random keysmashing.
+   - By extension, rule 7 is also violated, because none of these obfuscated names are explained where it is required.
 - Rule 4 is violated because all code has been compressed onto one line, and whitespace removed.
 - Rule 5 is violated because constant values are hardcoded in as many different calculations (e.g. `40` has been replaced by `1+1+1...+1` 40 times.)
+- Rule 6 is violated in the `Employee` class (now `ghjkluyghjfjyutgjhfncf`) as every single line is overexplained, even when it is self explanatory.
