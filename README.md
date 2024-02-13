@@ -25,12 +25,13 @@ The following project is an exercise in what **NOT** to do when it comes to best
    - Rule 10 is also violated in the `Employee` class (now `ghjkluyghjfjyutgjhfncf`) where type indicators are prefixed to attributes of the class that are mismatched with their actual type (`boolean_num_hours` is a float, for example).
    - These rules are also violated because variables are unnecessarily typecast back and forth (e.g. `(int) (char) (int) (char)`).
 - Rule 4 is violated because code for the `Hourly`, `Salary`, and `Contractor` classes (now `cfghfjk`, `gdhjfkdshfgds`, and `fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk` respectively) has been compressed onto one line, and whitespace removed.
-   - It is also violated in the `Staff` class, as unnecessary whitespace is included. 
+   - It is also violated in the `Staff` (now `ghjkluyghjfjyutgjhfncf`) class, as unnecessary whitespace is included, making reading code a journey in scrolling.
 - Rule 5 is violated because constant values are hardcoded in as many different calculations (e.g. `40` has been replaced by `1+1+1...+1` 40 times.)
 - Rule 6 is violated in the `Employee` class (now `ghjkluyghjfjyutgjhfncf`) as every single line is overexplained, even when it is self explanatory.
    - For example: Every line of a function definition block is commented, pointing out the function signature, each curly brace, any assignment operations, and whitespace for visual clarity.
    - Even more egregious: Functions with no parameters are singled out by comments _within the parentheses themselves_ indicating that these functions take no arguments.
-- Rule 8 is violated in the `Hourly` and `Employee` classes (now `cfghfjk` and `ghjkluyghjfjyutgjhfncf`), where a random loop achieves nothing or recreates a string by iterating over it character by character.
+   - It's even violated more in the `Salary` class (now `gdhjfkdshfgds`), where all whitespace is instead overwritten with a comment indicating that there should be whitespace there.
+- Rule 8 is violated in the `Hourly` and `Employee` classes (now `cfghfjk` and `ghjkluyghjfjyutgjhfncf` respectively), where a random loop achieves nothing or recreates a string by iterating over it character by character.
 - Rule 12 is violated in the `Hourly` (`cfghfjk`) and `Employee` (`ghjkluyghjfjyutgjhfncf`) classes by the inclusion of attributes and variables (e.g. `important` and `weight` that are not useful or discarded within the scope of their declaration.
 - Rule 13 is violated. All new names for classes disrespect the PascalCase convention of class naming and are purely lowercase.
 - Rule 14 is violated in the for loop in the `Salary` (`gdhjfkdshfgds`) class, as the terminal condition is off by one.
