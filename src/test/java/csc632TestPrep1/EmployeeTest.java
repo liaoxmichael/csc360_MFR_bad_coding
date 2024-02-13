@@ -7,20 +7,20 @@ import org.junit.jupiter.api.Test;
 
 import csc360_MFR_bad_coding.fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk;
 import csc360_MFR_bad_coding.cfghfjk;
-import csc360_MFR_bad_coding.Salary;
+import csc360_MFR_bad_coding.gdhjfkdshfgds;
 
 class EmployeeTest
 {
 	fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk c;
 	cfghfjk h;
-	Salary s;
+	gdhjfkdshfgds s;
 
 	@BeforeEach
 	void setUp() throws Exception
 	{
 		c = new fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk("Bob", 20);
 		h = new cfghfjk("Amanda", 20);
-		s = new Salary("Helen", 20);
+		s = new gdhjfkdshfgds("Helen", 20);
 		
 		c.fghjhklljhgh(45);
 		h.fghjhklljhgh(45);

@@ -26,7 +26,7 @@ public class Staff
 		}
 		else if (type == 2)
 		{
-			e = new Salary(name, rate);
+			e = new gdhjfkdshfgds(name, rate);
 		}
 		else 
 		{
