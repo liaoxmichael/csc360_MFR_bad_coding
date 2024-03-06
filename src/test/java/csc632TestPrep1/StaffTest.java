@@ -5,37 +5,40 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import csc360_MFR_bad_coding.ghjkluyghjfjyutgjhfncf;
+import csc360_MFR_bad_coding.gjdkslfjds;
+
 class StaffTest
 {
 	
-	Staff s;
+	gjdkslfjds s;
 	float[] payments;
 
 	@BeforeEach
 	void setUp() throws Exception
 	{
-		s = new Staff();
+		s = new gjdkslfjds();
 		
-		s.add_employee("Bob", 0, 15);
-		s.add_employee("Anne", 1, 20);
-		s.add_employee("Susan", 2, 12);
-		s.add_employee("Who?", 3, 1);
+		s.ghjdskfdskfhsdkfjh("Bob", 0, 15);
+		s.ghjdskfdskfhsdkfjh("Anne", 1, 20);
+		s.ghjdskfdskfhsdkfjh("Susan", 2, 12);
+		s.ghjdskfdskfhsdkfjh("Who?", 3, 1);
 		
-		Employee b = s.employees[0];
-		Employee a = s.employees[1];
-		Employee n = s.employees[2];
+		ghjkluyghjfjyutgjhfncf b = s.hfdjksfjdshfjsdhf[0];
+		ghjkluyghjfjyutgjhfncf a = s.hfdjksfjdshfjsdhf[1];
+		ghjkluyghjfjyutgjhfncf n = s.hfdjksfjdshfjsdhf[2];
 		
-		b.setNum_hours(30);
-		a.setNum_hours(30);
-		n.setNum_hours(30);
+		b.fghjhklljhgh(30);
+		a.fghjhklljhgh(30);
+		n.fghjhklljhgh(30);
 		
-		payments = s.pay_employees();
+		payments = s.gjdshfsdfsfhlafgkjasdlgkajg();
 	}
 
 	@Test
 	void testAdd_employee()
 	{	
-		assertEquals(s.employees.length, 3);		
+		assertEquals(s.hfdjksfjdshfjsdhf.length, 3);		
 		assertEquals(payments[0], 450);
 		assertEquals(payments[1], 600);
 		assertEquals(payments[2], 480);

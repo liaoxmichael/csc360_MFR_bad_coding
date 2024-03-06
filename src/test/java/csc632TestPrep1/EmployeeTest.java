@@ -5,42 +5,46 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import csc360_MFR_bad_coding.fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk;
+import csc360_MFR_bad_coding.cfghfjk;
+import csc360_MFR_bad_coding.gdhjfkdshfgds;
+
 class EmployeeTest
 {
-	Contractor c;
-	Hourly h;
-	Salary s;
+	fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk c;
+	cfghfjk h;
+	gdhjfkdshfgds s;
 
 	@BeforeEach
 	void setUp() throws Exception
 	{
-		c = new Contractor("Bob", 20);
-		h = new Hourly("Amanda", 20);
-		s = new Salary("Helen", 20);
+		c = new fghjklhkgfjkjyfgdfjhbknfsjdhfbsdnclkdghfdnsjkruweygfdshabjk("Bob", 20);
+		h = new cfghfjk("Amanda", 20);
+		s = new gdhjfkdshfgds("Helen", 20);
 		
-		c.setNum_hours(45);
-		h.setNum_hours(45);
-		s.setNum_hours(45);
+		c.fghjhklljhgh(45);
+		h.fghjhklljhgh(45);
+		s.fghjhklljhgh(45);
 	}
 
 	@Test
 	void test()
 	{
-		assertEquals(c.name, "Bob");
-		assertEquals(h.name, "Amanda");
-		assertEquals(s.name, "Helen");
+		assertEquals(c.int_name, "Bob");
+		assertEquals(h.int_name, "Amanda");
+		assertEquals(s.int_name, "Helen");
 		
-		assertEquals(c.getHourly_rate(), 20);
-		assertEquals(h.getHourly_rate(), 20);
-		assertEquals(s.getHourly_rate(), 20);
+		assertEquals(c.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs(), 20);
+		assertEquals(h.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs(), 20);
+		assertEquals(s.hjgkmnhjkgvmbnhjgfvjktjyfhgvgjkuytrydfghjkbnvhgjyturfghcdfs(), 20);
 		
-		assertEquals(c.getNum_hours(), 45);
-		assertEquals(h.getNum_hours(), 45);
-		assertEquals(s.getNum_hours(), 45);
+		assertEquals(c.zdfsghvgkjhgjfnb(), 45);
+		assertEquals(h.zdfsghvgkjhgjfnb(), 45);
+		assertEquals(s.zdfsghvgkjhgjfnb(), 45);
 		
-		assertEquals(c.calc_pay(), 900);
-		assertEquals(h.calc_pay(), 950);
-		assertEquals(s.calc_pay(), 800);
+		assertEquals(c.rtyyui(), 900);
+		assertEquals(h.rtyyui(), 950);
+		assertEquals(s.rtyyui(), 800);
 		
 	}
 
